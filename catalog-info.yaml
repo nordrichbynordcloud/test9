@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: test9
+  annotations:
+    github.com/project-slug: nordrichbynordcloud/test9
+  description: Repository for test9 created via github-template workflow.
+  tags:
+    - github
+spec:
+  type: repository
+  owner: nordrichbynordcloud
+  lifecycle: experimental
